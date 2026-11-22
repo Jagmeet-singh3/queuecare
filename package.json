@@ -1,0 +1,25 @@
+{
+  "name": "queuecare-monorepo",
+  "version": "1.0.0",
+  "description": "QueueCare: Hospital & Clinic Waiting-Time Management System (College Capstone)",
+  "scripts": {
+    "install:all": "cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed",
+    "test": "cd server && npm test",
+    "simulate": "node scripts/simulate.js",
+    "build": "cd client && npm run build",
+    "start": "cd server && node src/server.js",
+    "server": "cd server && node --watch src/server.js",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": [
+    "healthcare",
+    "queue-management",
+    "software-engineering",
+    "fifo-queue",
+    "socket-io",
+    "college-project"
+  ],
+  "author": "QueueCare Team",
+  "license": "MIT"
+}
